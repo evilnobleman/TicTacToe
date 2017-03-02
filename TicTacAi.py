@@ -20,9 +20,6 @@ class TicTacAi:
         else:
             print("Game should be a draw..... ENDING....")
 
-# TODO:
-# Finish writing the logic for the ai
-
 # can_i_win checks to see if the ai has a winning move
 # can_they_win checks to see if the player has a winning move
 # corner_open checks to see if there is an open corner to take
