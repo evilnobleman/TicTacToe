@@ -3,6 +3,11 @@ import random
 
 class TicTacAi:
 
+        # TODO: 	Create a way to have easy,medium and hard ai
+        #	   	Hard can be the ai that is used now
+        #		Easy and medium can just have a random factor added in
+        #		These will be decieded with the settigs param
+
     def __init__(self, settings):
         self.settings = settings
 

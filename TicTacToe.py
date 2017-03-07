@@ -14,7 +14,6 @@ class TURN(enumerate):
         else:
             return player_one
 
-
 def runGame():
     # instantiate board
     #   000  123  012
@@ -32,6 +31,7 @@ def runGame():
     # board = [1, 2, 1, 2, 1, 2, 2, 1, 2] #draw board
 
     # turn can equal either 1 or 2 for the players
+    #TODO: create a way to read in the board from a file and also write to files
 
     settings = 0
     ai = TicTacAi
